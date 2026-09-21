@@ -12,8 +12,8 @@ namespace Mini_Challenge___10.Controllers
     {
 
         
-        [HttpGet]
-        [Route("numbers/{firstnumber}/{secondnumber}")]
+        [HttpGet ("numbers/{firstnumber}/{secondnumber}")]
+        
         public ActionResult Numbers(string firstnumber, string secondnumber)
       
         {

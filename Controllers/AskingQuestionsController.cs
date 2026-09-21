@@ -11,8 +11,8 @@ namespace Mini_Challenge___10.Controllers
     [Route("api/[controller]")]
     public class AskingQuestions : ControllerBase
     {
-       [HttpGet]
-       [Route("ask/{name}/{time}")]
+       [HttpGet ("ask/{name}/{time}")]
+      
     
        public ActionResult Ask(string name, string time){
       

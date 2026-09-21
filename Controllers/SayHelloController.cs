@@ -7,8 +7,7 @@ namespace Mini_Challenge___10.Controllers
     [Route("api/[controller]")]
     public class SayHelloController : ControllerBase
     {
-        [HttpGet]
-        [Route ("username/{username}")]
+        [HttpGet("username/{username}")]
         public string UserName(string username)
         {
             return $"Hello {username}";
