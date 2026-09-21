@@ -14,18 +14,18 @@ namespace Mini_Challenge___10.Controllers
        [HttpGet]
        [Route("ask/{name}/{time}")]
     
-       public string Ask(string name, string time){
+       public ActionResult Ask(string name, string time){
       
         bool success = int.TryParse(time, out int realtime);
 
         if (success)
 
         {
-            return $"Your name is {name} and you woke up at {realtime}";
+            return Ok ($"Your name is {name} and you woke up at {realtime}");
         }
         else
         {
-            return "That was not a valid entry.";
+            return NotFound("That was not a valid entry.");
         }
     }
 }

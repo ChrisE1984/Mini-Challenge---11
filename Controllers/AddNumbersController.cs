@@ -14,7 +14,7 @@ namespace Mini_Challenge___10.Controllers
         
         [HttpGet]
         [Route("numbers/{firstnumber}/{secondnumber}")]
-        public string Numbers(string firstnumber, string secondnumber)
+        public ActionResult Numbers(string firstnumber, string secondnumber)
       
         {
             
@@ -26,11 +26,11 @@ namespace Mini_Challenge___10.Controllers
             
             {
             int sum = realfirstnumber + realsecondnumber;
-            return $"The numbers you entered add up to {sum}.";
+            return Ok($"The numbers you entered add up to {sum}.");
             }
             else
             {
-            return "That was not a valid entry.";
+            return NotFound("That was not a valid entry.");
             }
         }
     }
