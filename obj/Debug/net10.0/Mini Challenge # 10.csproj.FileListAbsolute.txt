@@ -64,3 +64,4 @@ C:\Users\cestr\Desktop\Homework\Mini Challenge # 11\obj\Debug\net10.0\swae.build
 C:\Users\cestr\Desktop\Homework\Mini Challenge # 11\obj\Debug\net10.0\Mini Cha.7FAE0A03.Up2Date
 C:\Users\cestr\Desktop\Homework\Mini Challenge # 11\obj\Debug\net10.0\Mini Challenge # 10.genruntimeconfig.cache
 C:\Users\cestr\Desktop\Homework\Mini Challenge # 11\obj\Debug\net10.0\ref\Mini Challenge # 10.dll
+C:\Users\cestr\Desktop\Homework\Mini Challenge # 11\obj\Debug\net10.0\Mini Challenge # 10.sourcelink.json
